@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ambienti virtuali
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Dati e dataset (non versionare file grezzi pesanti)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Checkpoint e Pesi dei modelli
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Output di log e tracking
+logs/
+wandb/
+mlruns/
+outputs/
+results/figures/
+
+# File di sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
