@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or thesis pipeline, please cite both this repository and the original dataset."
+title: "Machine Learning Pipeline for Diabetes Risk Prediction"
+authors:
+  - family-names: "Francesco Coppola"
+    given-names: "Francesco Coppola"
+    orcid: "https://orcid.org/0009-0009-0758-8226" # Se lo hai, altrimenti ometti
+version: 0.0.1
+date-released: 2026-09-08
+references:
+  - type: article
+    title: "A bimodal dataset for diabetes research"
+    authors:
+      - family-names: "Li"
+        given-names: "Jiandun"
+    journal: "Scientific Data"
+    volume: 13
+    year: 2026
+    doi: "10.1038/s41597-026-06923-y"
+    url: "https://doi.org/10.1038/s41597-026-06923-y"
